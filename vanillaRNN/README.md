@@ -29,7 +29,7 @@ Function **train(....)** trains the model. Model is trained on different configu
 **trainVanillaRNN.py**
 
   -- I have used the parse_arguments from parser library to execute this trainVanillaRNN.py file.
-  -- It can be executed by appling !python trainPartA.py --(parameters that are supported as choices in my trainVanillaRNN.py file)
+  -- It can be executed by appling !python trainVanillaRNN.py --(parameters that are supported as choices in my trainVanillaRNN.py file)
   -- wandb can be integrated by giving your activation key to visualize the accuracies
   -- (**-- parameterName**) command be used to test with other values than default values.
   
