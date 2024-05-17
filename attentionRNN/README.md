@@ -6,7 +6,7 @@ I have imported all the libraries.
 I have integrated wandb with projectname = 'vanillaRNN'
 # GPU 
 I have integreated GPU if available
-# Data loading preprocessing 
+# Data loading and preprocessing 
 I have loaded the different data sets (Train, Validation and Test)
 I have preprocessed the input data by using the functions  **pre_processing(train_input,train_output)**. It simply takes the input data and converts it into sequence of numbers for training purpose.
 I have preprocessed the input data by using the functions  **pre_processing_validation(val_input,val_output)**. It simply takes the validation data and converts it into sequence of numbers for testing purpose.
