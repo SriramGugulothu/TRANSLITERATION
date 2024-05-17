@@ -30,7 +30,7 @@ Function **train(....)** trains the model ( I have neglected parameters to defin
 
   -- I have used the parse_arguments from parser library to execute this trainAttentionRNN.py file.
   -- It can be executed by the command  ``` python trainAttentionRNN.py ```. By default it is executed by default values.
-  
+  -- wandb integration can be done by giving account activation key
   -- command  (**-- parameterName**) following the above execution command can be used to test with other values rather than default values.
   
 The script trainAttentionRNN.py accepts several command line arguments to configure the training process:
