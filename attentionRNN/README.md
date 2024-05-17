@@ -24,7 +24,7 @@ function **train(...)** caculates the training loss (Entropy loss) and training 
 Used Encoder,Attention and Decoder inbuilt classes from nn.Module. Forward and backward propogations are subjective to kind of cell type. 
 
 # training
-Function **train(....)** trains the model. Model is trained on different configurations passed by the parser parameters. On each epoch it prints the train acccuracy, train loss, validation accuracy and validation loss. This training is different from vanillaRNN training. Here each state of encode is passed as the input for decoder. In this function attention values are also stored.
+Function **train(....)** trains the model ( I have neglected parameters to define functionality of function). Model is trained on different configurations passed by the parser parameters. On each epoch it prints the train acccuracy, train loss, validation accuracy and validation loss. This training is different from vanillaRNN training. Here each state of encoder is passed as the input for decoder. In this function attention values are also calculated and stored.
 
 **trainAttentionRNN.py**
 
