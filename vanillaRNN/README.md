@@ -34,7 +34,7 @@ Function **train(....)** trains the model. Model is trained on different configu
 
 -The script trainVanillaRNN.py accepts several command line arguments to configure the training process:
 
--wp, --wandb_project: Project name used to track experiments in WandB dashboard (default: AttentionRNN)
+-wp, --wandb_project: Project name used to track experiments in WandB dashboard (default: vanillaRNN)
 -es, --embSize: Choice of embedding size (default: 64, choices: [16, 32, 64])
 -el, --encoderLayers: Choice of number of encoder layers (default: 5, choices: [1, 5, 10])
 -dl, --decoderLayers: Choice of number of decoder layers (default: 5, choices: [1, 5, 10])
