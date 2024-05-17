@@ -33,7 +33,7 @@ Function **train(....)** trains the model. Model is trained on different configu
   -- Command (**-- parameterName**) following above execution command can be used to test with other values than default values.
 
 -The script trainVanillaRNN.py accepts several command line arguments to configure the training process:
-
+```
 -wp, --wandb_project: Project name used to track experiments in WandB dashboard (default: vanillaRNN)
 -es, --embSize: Choice of embedding size (default: 64, choices: [16, 32, 64])
 -el, --encoderLayers: Choice of number of encoder layers (default: 5, choices: [1, 5, 10])
@@ -46,7 +46,7 @@ Function **train(....)** trains the model. Model is trained on different configu
 -lR, --learnRate: Choice of learning rate (default: 1e-4, choices: [1e-3, 1e-4])
 -bS, --batchsize: Choice of batch size (default: 32, choices: [32, 64])
 -opt, --optimizer: Choice of optimizer (default: Adam, choices: ['Nadam', 'Adam'])
--tf, --tf_ratio: Choice of teacher forcing ratio (default: 0.5, choices: [0.2, 0.4, 0.5])
+-tf, --tf_ratio: Choice of teacher forcing ratio (default: 0.5, choices: [0.2, 0.4, 0.5]) ```
   -- wandb can be integrated by giving your activation key to visualize the accuracies
   
   **VanillaRNN.ipynb.**
