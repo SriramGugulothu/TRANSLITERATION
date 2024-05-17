@@ -29,9 +29,25 @@ Function **train(....)** trains the model ( I have neglected parameters to defin
 **trainAttentionRNN.py**
 
   -- I have used the parse_arguments from parser library to execute this trainAttentionRNN.py file.
-  -- It can be executed by appling !python trainAttentionRNN.py --(parameters that are supported as choices in my trainAttentionRNN.py file)
-  -- wandb can be integrated by giving your activation key to visualize the accuracies
-  -- (**-- parameterName**) command be used to test with other values than default values.
+  -- It can be executed by the command  ``` python trainAttentionRNN.py ```. By default it is executed by default values.
+  
+  -- command  (**-- parameterName**) following the above execution command can be used to test with other values rather than default values.
+  
+The script trainAttentionRNN.py accepts several command line arguments to configure the training process:
+
+``` -wp, --wandb_project: Project name used to track experiments in WandB dashboard (default: AttentionRNN)
+-es, --embSize: Choice of embedding size (default: 64, choices: [16, 32, 64])
+-el, --encoderLayers: Choice of number of encoder layers (default: 5, choices: [1, 5, 10])
+-dl, --decoderLayers: Choice of number of decoder layers (default: 5, choices: [1, 5, 10])
+-hn, --hiddenLayerNuerons: Choice of hidden layer neurons (default: 512, choices: [64, 256, 512])
+-ct, --cellType: Choice of cell type (default: RNN, choices: ['GRU', 'LSTM', 'RNN'])
+-bd, --bidirection: Choice of bidirection (default: no, choices: ['Yes', 'no'])
+-d, --dropout: Choice of dropout probability (default: 0.3, choices: [0, 0.2, 0.3])
+-nE, --epochs: Choice of epochs (default: 10, choices: [10, 15, 20])
+-lR, --learnRate: Choice of learning rate (default: 1e-4, choices: [1e-3, 1e-4])
+-bS, --batchsize: Choice of batch size (default: 32, choices: [32, 64])
+-opt, --optimizer: Choice of optimizer (default: Adam, choices: ['Nadam', 'Adam'])
+-tf, --tf_ratio: Choice of teacher forcing ratio (default: 0.5, choices: [0.2, 0.4, 0.5]) ```
   
   **AttentionRNN.ipynb.**
   
