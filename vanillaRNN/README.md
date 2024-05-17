@@ -31,9 +31,9 @@ Function **train(....)** trains the model. Model is trained on different configu
   -- I have used the parse_arguments from parser library to execute this trainVanillaRNN.py file.
   -- It can be executed by appling !python trainVanillaRNN.py --(parameters that are supported as choices in my trainVanillaRNN.py file)
   -- wandb can be integrated by giving your activation key to visualize the accuracies
-  -- (**-- parameterName**) command be used to test with other values than default values.
+  -- (**-- parameterName**) command can be used to test with other values than default values.
   
-  **trainVanillaRNN.ipynb.**
+  **VanillaRNN.ipynb.**
   
   -- In place of parsers I have integrated with wandb parameters and ran the sweeps in ipynb file.
   --  You can run by integrating your wandb account by activation key to visualize the accuarcies.
